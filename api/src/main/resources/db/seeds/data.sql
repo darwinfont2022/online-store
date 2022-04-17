@@ -1,0 +1,7 @@
+INSERT INTO clients (address,city,email,"name","password",username) VALUES ('Custom address', 'Montevideo', 'test@g.com','Seller','$2a$10$bS6zJDxEn9JkZFlgldDHH.9PxXIbsC8oA74UG79fFJ2/RQ2rIHYxS','seller'), ('Custom address', 'Montevideo', 'client@g.com','Client','$2a$10$bS6zJDxEn9JkZFlgldDHH.9PxXIbsC8oA74UG79fFJ2/RQ2rIHYxS','client');
+
+INSERT INTO catalogs ("title", seller_id, fee, created_at) VALUES ('Mi catalog 1', 1, 5, '2022-04-18');
+
+INSERT INTO products ("title", price, provider, image) VALUES ('Product 1', 10, '1', 'https://conceptoabc.com/wp-content/uploads/2021/09/Producto.jpg'), ('Product 2', 20, '1', 'https://conceptoabc.com/wp-content/uploads/2021/09/Producto.jpg'), ('Product 3', 30, '1', 'https://conceptoabc.com/wp-content/uploads/2021/09/Producto.jpg'), ('Product 4', 40, '1', 'https://conceptoabc.com/wp-content/uploads/2021/09/Producto.jpg'), ('Product 5', 50, '1', 'https://conceptoabc.com/wp-content/uploads/2021/09/Producto.jpg'), ('Product 6', 60, '1', 'https://conceptoabc.com/wp-content/uploads/2021/09/Producto.jpg'), ('Product 7', 70, '1', 'https://conceptoabc.com/wp-content/uploads/2021/09/Producto.jpg'), ('Product 8', 80, '1', 'https://conceptoabc.com/wp-content/uploads/2021/09/Producto.jpg'), ('Product 9', 90, '1', 'https://conceptoabc.com/wp-content/uploads/2021/09/Producto.jpg'), ('Product 10', 100, '1', 'https://conceptoabc.com/wp-content/uploads/2021/09/Producto.jpg');
+
+INSERT INTO catalogs_products (catalog_id, product_id) VALUES (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6);
