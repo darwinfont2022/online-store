@@ -5,15 +5,14 @@ import com.bee.store.entities.Client;
 import com.bee.store.repositories.ClientRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.MockitoAnnotations.openMocks;
 
-@SpringBootTest
 class ClientServiceTest {
     @Mock
     private ClientRepository repository;
@@ -21,6 +20,7 @@ class ClientServiceTest {
     @Mock
     private PasswordEncoder passwordEncoder;
 
+    @InjectMocks
     private ClientService service;
 
     private static Client mockClient() {
