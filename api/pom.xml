@@ -38,6 +38,20 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jetty</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.eclipse.jetty.websocket</groupId>
+					<artifactId>websocket-server</artifactId>
+				</exclusion>
+				<exclusion>
+					<artifactId>javax-websocket-server-impl</artifactId>
+					<groupId>org.eclipse.jetty.websocket</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>jakarta.websocket-api</artifactId>
+					<groupId>jakarta.websocket</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
