@@ -2,7 +2,7 @@
 
 ### This could load some seconds (Heroku dynos are sleeping ;-)
 
-[Heroku live demo](https://bee-seller-react-client.herokuapp.com/)
+[Heroku live demo](https://bee-seller-client.herokuapp.com/)
 
 - [Client README file](./client/README.md)
 - [API README file](./api/README.md)

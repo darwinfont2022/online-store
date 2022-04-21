@@ -1,6 +1,6 @@
 # Online Store Client
 
-[Heroku live demo](https://bee-seller-react-client.herokuapp.com/)
+[Heroku live demo](https://bee-seller-client.herokuapp.com/)
 
 ## Features
 
