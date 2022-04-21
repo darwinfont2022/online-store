@@ -7,7 +7,7 @@ spring:
         url: jdbc:postgresql://localhost:5432/db_bee_seller
         driverClassName: org.postgresql.Driver
         username: postgres
-        password: password
+        password: Password1
     sql:
         init:
             mode:always
